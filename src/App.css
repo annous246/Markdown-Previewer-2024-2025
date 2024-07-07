@@ -1,0 +1,57 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+#container{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center;
+  margin: 2em;
+  margin-top: 18em;
+  padding: 2em;
+  background-color: rgba(15, 252, 141, 0.87);
+  border: 0.08em solid black;
+  border-radius: 1em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.2s all;
+}
+#preview{
+  text-align: start;
+  margin-top: 1em;
+  padding: 1em;
+  background-color: rgb(255, 255, 255);
+  border: 0.08em solid black;
+  width: 100%;
+  min-height: 100%;
+  
+}
+#indicator{
+  margin: 1em;
+  border: 0.08em solid black;
+  padding: 1em;
+
+}
+button{
+  padding: 0.5em;
+  border-radius: 1em;
+  border: 0.08em solid black;
+  align-self: flex-end;
+  cursor: pointer;
+  margin: 1em;
+
+}
+#editor{
+  padding: 0.5em;
+  width: 100%;
+  height: 40vh;
+  border-radius: 1em;
+  border: 0.08em solid black;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(247, 178, 89);
+
+}
